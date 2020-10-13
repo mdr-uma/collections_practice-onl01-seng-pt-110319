@@ -31,3 +31,7 @@ def find_a(array)
     e.start_with?("a")
   end
 end
+
+def sum_array(array)
+  array.inject(0) {|sum, num| sum + num} 
+end
