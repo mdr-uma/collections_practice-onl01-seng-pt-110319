@@ -12,5 +12,6 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
+  binding.pry
   (array,0,2)
 end
