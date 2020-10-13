@@ -13,5 +13,4 @@ end
 
 def swap_elements(array)
   binding.pry
-  (array,0,2)
 end
